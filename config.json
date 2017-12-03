@@ -1,0 +1,28 @@
+{
+	
+	"google_credenciales":{"installed":{"client_id":"XXXXX.apps.googleusercontent.com","project_id":"XXXX","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://accounts.google.com/o/oauth2/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"XXXXXXXXXXXX","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}},
+	"user_list":[ 
+					{
+					"user":"ABC",
+					"pass":"123",
+					"roles":["resultados_csv"]
+					},
+
+					{
+					"user":"admin",
+					"pass":"admin",
+					"roles":["resultados_csv","microdatos"]
+					}
+				],
+	"natural_language_credenciales":{"username":"40c5b28f-8808-4bf0-a526-f560df04cb6d","password":"I2LJWvssSazA"},
+	
+	"mongo_uri":"mongodb://YYYYYYYYYYYYYY:XXXXXXXXXXXXX@cluster0-shard-00-00-tdf9w.mongodb.net:27017,cluster0-shard-00-01-tdf9w.mongodb.net:27017,cluster0-shard-00-02-tdf9w.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
+
+	,"config_servicio":{
+							"filters":[["Edad",2],["Genero",3],["Maximo_nivel_educativo",5],["Sabe_algo_sobre_JAP",12]],
+							"aggregation":["Genero","Maximo_nivel_educativo"],
+							"sentiment":["Si_conoce_JAP_opinion_que_posee"],
+							"graficos":["Edad","Sabe_algo_sobre_JAP"]
+
+						}
+}
