@@ -14,7 +14,7 @@
 					"roles":["resultados_csv","microdatos"]
 					}
 				],
-	"natural_language_credenciales":{"username":"40c5b28f-8808-4bf0-a526-f560df04cb6d","password":"I2LJWvssSazA"},
+	"natural_language_credenciales":{"username":"XXXXXXXXXXXXXXXXXXXX","password":"XXXXXXXXXXXXXXXXXXXX"},
 	
 	"mongo_uri":"mongodb://YYYYYYYYYYYYYY:XXXXXXXXXXXXX@cluster0-shard-00-00-tdf9w.mongodb.net:27017,cluster0-shard-00-01-tdf9w.mongodb.net:27017,cluster0-shard-00-02-tdf9w.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
 
